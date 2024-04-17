@@ -37,6 +37,8 @@ nltk = "*"
 scikit-learn = "*"
 transformers = "*"
 sentencepiece = "*"
+datasets = "*"
+sacremoses = "*"
 
 [dev-packages]
 
