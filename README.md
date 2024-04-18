@@ -19,4 +19,5 @@ pipenv install nltk
 pipenv install scikit-learn
 pipenv install transformers sentencepiece
 pipenv install datasets
+pipenv install accelerate
 ```

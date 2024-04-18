@@ -39,6 +39,7 @@ transformers = "*"
 sentencepiece = "*"
 datasets = "*"
 sacremoses = "*"
+accelerate = "*"
 
 [dev-packages]
 
