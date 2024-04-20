@@ -41,6 +41,8 @@ datasets = "*"
 sacremoses = "*"
 accelerate = "*"
 evaluate = "*"
+trl = "*"
+rouge-score = "*"
 
 [dev-packages]
 
