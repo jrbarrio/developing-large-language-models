@@ -21,4 +21,5 @@ pipenv install transformers sentencepiece
 pipenv install datasets
 pipenv install accelerate
 pipenv install evaluate
+pip install rouge_score
 ```
