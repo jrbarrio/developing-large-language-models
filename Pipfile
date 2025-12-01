@@ -1,0 +1,52 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[[source]]
+url = "pytorch"
+verify_ssl = true
+name = ""
+
+[[source]]
+url = "pytorch"
+verify_ssl = true
+name = ""
+
+[[source]]
+url = "pytorch"
+verify_ssl = true
+name = ""
+
+[[source]]
+url = "pytorch"
+verify_ssl = true
+name = ""
+
+[packages]
+numpy = "*"
+pandas = "*"
+torch = {version = "*", index = ""}
+torchvision = {version = "*", index = ""}
+torchaudio = {version = "*", index = ""}
+torchtext = {version = "*", index = ""}
+torchmetrics = "*"
+matplotlib = "*"
+pillow = "*"
+nltk = "*"
+scikit-learn = "*"
+transformers = "*"
+sentencepiece = "*"
+datasets = "*"
+sacremoses = "*"
+accelerate = "*"
+evaluate = "*"
+trl = "*"
+rouge-score = "*"
+llama-stack = "*"
+llama-cpp-python = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
