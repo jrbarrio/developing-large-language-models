@@ -1,3 +1,9 @@
+# Import the Llama class
+from llama_cpp import Llama
+
+# Initialize the Llama model
+llm = Llama(model_path="03-working-with-llama-3/models/Meta-Llama-3-8B.Q8_0.gguf", verbose=False)
+
 # Complete the few-shot prompt
 prompt="""Review 1: I ordered from this place last night, and I'm impressed! 
 Sentiment 1: Positive,

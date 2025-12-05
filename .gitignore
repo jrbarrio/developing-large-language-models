@@ -3,3 +3,5 @@
 smaller_bert_finetuned/
 
 **/finetuned/
+
+**models/
