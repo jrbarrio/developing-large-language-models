@@ -3,7 +3,7 @@ https://app.datacamp.com/learn/skill-tracks/developing-large-language-models
 # Create virtual environment
 
 ```
-pyenv virtualenv 3.11.7 developing-large-language-models
+pyenv virtualenv 3.13.9 developing-large-language-models
 echo "developing-large-language-models" > .python-version
 ```
 
@@ -13,7 +13,7 @@ Install pytorch following the instructions from https://pipenv.pypa.io/en/latest
 ```
 pip install pipenv
 pipenv install numpy pandas
-pipenv install torch torchvision torchaudio torchtext --index=pytorch
+pipenv install torch torchvision torchaudio torchtext
 pipenv install torchmetrics
 pipenv install matplotlib
 pipenv install pillow

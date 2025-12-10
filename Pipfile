@@ -3,33 +3,9 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 name = "pypi"
 
-[[source]]
-url = "pytorch"
-verify_ssl = true
-name = ""
-
-[[source]]
-url = "pytorch"
-verify_ssl = true
-name = ""
-
-[[source]]
-url = "pytorch"
-verify_ssl = true
-name = ""
-
-[[source]]
-url = "pytorch"
-verify_ssl = true
-name = ""
-
 [packages]
 numpy = "*"
 pandas = "*"
-torch = {version = "*", index = ""}
-torchvision = {version = "*", index = ""}
-torchaudio = {version = "*", index = ""}
-torchtext = {version = "*", index = ""}
 torchmetrics = "*"
 matplotlib = "*"
 pillow = "*"
@@ -38,15 +14,18 @@ scikit-learn = "*"
 transformers = "*"
 sentencepiece = "*"
 datasets = "*"
-sacremoses = "*"
 accelerate = "*"
 evaluate = "*"
-trl = "*"
 rouge-score = "*"
+trl = "*"
 llama-stack = "*"
 llama-cpp-python = "*"
+torch = "*"
+torchvision = "*"
+torchaudio = "*"
+torchtext = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.11"
+python_version = "3.9"
