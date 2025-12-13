@@ -7,6 +7,7 @@ word_to_idx = {word: i for i, word in enumerate(words)}
 
 # Convert word_to_idx to a tensor
 inputs = torch.LongTensor([word_to_idx[w] for w in words])
+print(inputs)
 
 # Initialize embedding layer with ten dimensions
 embedding = nn.Embedding(num_embeddings=len(words), embedding_dim=10)
