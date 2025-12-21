@@ -4,6 +4,6 @@ smaller_bert_finetuned/
 
 **/finetuned/
 
-**models/
+**/models/
 
 **/*.gguf
