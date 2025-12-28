@@ -24,6 +24,7 @@ torch = "*"
 torchvision = "*"
 torchaudio = "*"
 torchtext = "*"
+modal-python = "*"
 
 [dev-packages]
 

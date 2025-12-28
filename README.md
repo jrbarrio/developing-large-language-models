@@ -27,4 +27,5 @@ pipenv install rouge_score
 pipenv install trl
 pipenv install llama-stack
 pipenv install llama-cpp-python
+pipenv install modal-python
 ```
