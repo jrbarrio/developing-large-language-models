@@ -17,7 +17,6 @@ datasets = "*"
 accelerate = "*"
 evaluate = "*"
 rouge-score = "*"
-trl = "*"
 llama-stack = "*"
 llama-cpp-python = "*"
 torch = "*"
@@ -25,6 +24,7 @@ torchvision = "*"
 torchaudio = "*"
 torchtext = "*"
 modal-python = "*"
+trl = "*"
 
 [dev-packages]
 
