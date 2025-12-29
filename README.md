@@ -29,4 +29,5 @@ pipenv install llama-stack
 pipenv install llama-cpp-python
 pipenv install modal-python
 pipenv install trl
+pipenv install peft
 ```

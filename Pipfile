@@ -25,6 +25,7 @@ torchaudio = "*"
 torchtext = "*"
 modal-python = "*"
 trl = "*"
+peft = "*"
 
 [dev-packages]
 
