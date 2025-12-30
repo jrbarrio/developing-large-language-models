@@ -4,8 +4,6 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-numpy = "*"
-pandas = "*"
 torchmetrics = "*"
 matplotlib = "*"
 pillow = "*"
@@ -26,6 +24,8 @@ torchtext = "*"
 modal-python = "*"
 trl = "*"
 peft = "*"
+numpy = "*"
+pandas = "*"
 
 [dev-packages]
 
